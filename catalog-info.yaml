@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test
+  description: Test
+  annotations: 
+    github.com/project-slug: lucian-backstage/test-golang
+    backstage.io/github-actions-id: lucian-backstage/test-golang
+spec:
+  type: service
+  lifecycle: experimental
+  owner: lucian-backstage
